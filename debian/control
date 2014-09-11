@@ -1,0 +1,37 @@
+Source: cairocffi
+Section: python
+Priority: optional
+Maintainer: Tycho Andersen <tycho@tycho.ws>
+Build-Depends: debhelper (>= 9)
+  , python-all
+  , python3-all
+  , python-cffi (>= 0.8.2)
+  , python3-cffi (>= 0.8.2)
+# testing
+  , python-pytest
+  , python3-pytest
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Standards-Version: 3.9.5
+Homepage: https://github.com/SimonSapin/cairocffi
+Vcs-Git: https://github.com/SimonSapin/cairocffi
+Vcs-Browser: https://github.com/SimonSapin/cairocffi
+XB-Description: cairocffi is a cffi based binding for cairo
+  cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python
+  bindings and object-oriented API for cairo. Cairo is a 2D vector graphics
+  library with support for multiple backends including image buffers, PNG,
+  PostScript, PDF, and SVG file output.
+
+Package: python-cairocffi
+Architecture: any
+Depends: python-cffi (>= 0.8.2)
+  , ${misc:Depends}
+  , ${python:Depends}
+Provides: ${python:Provides}
+
+Package: python3-cairocffi
+Architecture: any
+Depends: python3-cffi (>= 0.8.2)
+  , ${misc:Depends}
+  , ${python3:Depends}
+Provides: ${python3:Provides}

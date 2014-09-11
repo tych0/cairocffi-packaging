@@ -1,0 +1,5 @@
+*deb
+*changes
+*.tar.gz
+*.build
+cairocffi
