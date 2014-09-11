@@ -10,6 +10,8 @@ Build-Depends: debhelper (>= 9)
 # testing
   , python-pytest
   , python3-pytest
+  , python-xcffib
+  , python3-xcffib
   , libcairo2
   , libgdk-pixbuf2.0-0
 X-Python-Version: >= 2.6
@@ -27,6 +29,7 @@ XB-Description: cairocffi is a cffi based binding for cairo
 Package: python-cairocffi
 Architecture: any
 Depends: python-cffi (>= 0.8.2)
+  , python-xcffib
   , libcairo2
   , libgdk-pixbuf2.0-0
   , ${misc:Depends}
@@ -36,6 +39,7 @@ Provides: ${python:Provides}
 Package: python3-cairocffi
 Architecture: any
 Depends: python3-cffi (>= 0.8.2)
+  , python3-xcffib
   , libcairo2
   , libgdk-pixbuf2.0-0
   , ${misc:Depends}
