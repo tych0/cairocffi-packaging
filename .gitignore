@@ -1,5 +1,6 @@
 *deb
 *changes
-*.tar.gz
+*.tar*
 *.build
+*dsc
 cairocffi
