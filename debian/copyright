@@ -5,7 +5,9 @@ Source: http://github.com/SimonSapin/cairocffi
 Files: *
 Copyright: 2013 Simon Sapin
 License: BSD
+  The BSD licence is available in /usr/share/common-licenses/BSD
 
 Files: debian/*
 Copyright: 2014 Tycho Andersen
 License: BSD
+  The BSD licence is available in /usr/share/common-licenses/BSD
