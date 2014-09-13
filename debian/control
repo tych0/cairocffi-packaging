@@ -21,10 +21,10 @@ Homepage: https://github.com/SimonSapin/cairocffi
 Vcs-Git: https://github.com/SimonSapin/cairocffi
 Vcs-Browser: https://github.com/SimonSapin/cairocffi
 XB-Description: cairocffi is a cffi based binding for cairo
-  cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python
-  bindings and object-oriented API for cairo. Cairo is a 2D vector graphics
-  library with support for multiple backends including image buffers, PNG,
-  PostScript, PDF, and SVG file output.
+ cairocffi is a CFFI-based drop-in replacement for Pycairo, a set of Python
+ bindings and object-oriented API for cairo. Cairo is a 2D vector graphics
+ library with support for multiple backends including image buffers, PNG,
+ PostScript, PDF, and SVG file output.
 
 Package: python-cairocffi
 Architecture: any
